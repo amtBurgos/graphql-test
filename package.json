@@ -17,7 +17,13 @@
   },
   "homepage": "https://github.com/amtBurgos/graphql-test#readme",
   "dependencies": {
-    "eslint": "^5.6.1",
+    "express": "^4.16.4",
+    "express-graphql": "^0.6.12",
     "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
   }
 }
