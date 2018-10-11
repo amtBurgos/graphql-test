@@ -1,0 +1,23 @@
+{
+  "name": "graphql-test",
+  "version": "1.0.0",
+  "description": "GraphQL Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amtBurgos/graphql-test.git"
+  },
+  "author": "Andres Miguel Teran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amtBurgos/graphql-test/issues"
+  },
+  "homepage": "https://github.com/amtBurgos/graphql-test#readme",
+  "dependencies": {
+    "eslint": "^5.6.1",
+    "graphql": "^14.0.2"
+  }
+}
