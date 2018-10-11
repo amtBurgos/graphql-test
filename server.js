@@ -9,4 +9,6 @@ var root = {
   hello: () => "Hello World"
 };
 
-graphql(schema, "{ hello }", root).then(res => console.log("RESPONSE", JSON.stringify(res)));
+graphql(schema, "{ hello }", root).then(res =>
+  console.log("RESPONSE", JSON.stringify(res))
+);
